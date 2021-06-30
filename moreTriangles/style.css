@@ -1,0 +1,79 @@
+html,
+body {
+  background: steelblue;
+  height: 100%;
+  margin: 0;
+  font-family: monospace;
+}
+
+.triangle-up {
+  height: 0;
+  width: 0;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-bottom: 100px solid red;
+  position: relative;
+}
+
+.triangle-down {
+  height: 0;
+  width: 0;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-top: 100px solid rgb(255, 180, 0, 80%);
+  position: relative;
+}
+
+.triangle-up-big {
+  height: 0;
+  width: 0;
+  border-right: 125px solid transparent;
+  border-left: 125px solid transparent;
+  border-bottom: 250px solid red;
+  position: relative;
+}
+
+
+/* up triangles */
+
+#up-1 {
+  top: 40%;
+  left: 40%;
+}
+
+
+/* down triangles */
+
+#down-1 {
+  top: 20%;
+  left: 30%;
+}
+
+#down-2 {
+  top: 28%;
+  left: 40%;
+}
+
+#down-3 {
+  top: -12.55%;
+  left: 49.5%;
+}
+
+
+/* up big triangles */
+
+#up-big-1 {
+  top: -27.5%;
+  left: 52%;
+}
+
+#up-big-2 {
+  top: -68%;
+  left: 6%;
+}
+
+#up-big-3 {
+  top: -154%;
+  left: 29%;
+}
+
