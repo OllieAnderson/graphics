@@ -1,0 +1,47 @@
+
+html {
+  background: teal;
+}
+
+body {
+  height: 800px;
+  width: 700px;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  background: steelblue;
+  position: relative;
+  border-radius: 100%;
+  opacity: 50%;
+  font-size: 50px;
+
+}
+
+#a1 {
+  left: 200px;
+  top: 200px;
+}
+
+#a2 {
+  left: 100px;
+  top: 300px;
+  height: 150px;
+  width: 150px;
+}
+
+#a3 {
+  left: 400px;
+  bottom: 150px;
+  height: 300px;
+  width: 300px;
+}
+
+div:hover {
+  opacity: 100%;
+  background-color: rgb(140, 100, 150, 90);
+}
+

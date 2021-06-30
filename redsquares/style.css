@@ -1,0 +1,21 @@
+
+body {
+  background-color: teal;
+}
+
+
+#shape {
+box-shadow: 
+0em 0em 1em 2em red,
+20em 15em 1em 3em red,
+11em 6em 1em 3em red,
+0 0 1em 0 red,
+2em 0 0 0 red,
+0 0 1em 0 red,
+0 0 15em 1em red;
+background: red;
+width: 1em;
+height: 1em;
+overflow: hidden;
+margin: 50px 0 70px 65px;
+}
